@@ -1,0 +1,21 @@
+@charset "utf-8";
+/*公用样式*/
+body,ul,ol,li,p,h1,h2,h3,h4,form,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body,button,input,select,textarea{font:14px/1.5 tahoma, Microsoft YaHei,\5b8b\4f53;*font-family: 'Microsoft YaHei';color: #666;}
+img{border:none;}
+li{list-style:none;}
+input,select,textarea{outline:none;border:none; background:none;}
+textarea{resize:none;}
+a{text-decoration:none; color:#575757;}
+i,em{ font-style:normal}
+/*清浮动*/
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+.fl{float:left;}
+.fr{float:right;}
+.comWidth{width:1200px; margin-left:auto; margin-right:auto; margin: 0 auto;}
+.center{width: 1200px;margin-left:auto; margin-right:auto; margin: 0 auto;}
+.leftArea{float:left;}
+.rightArea{float:right;}
+.hide{display:none;}
+.show{display:block;}

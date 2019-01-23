@@ -1,0 +1,14 @@
+/**
+ * Created by wangyang on 2019-01-23.
+ * itwangyang@gmail.com
+ * http://itwangyang.xyz
+ */
+.btn-primary{
+    border-radius: 10px;
+    background-color: #218afd;
+}
+
+.btn-outline-primary{
+    border: 1px solid #218afd;
+    color: #218afd;
+}

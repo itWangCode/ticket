@@ -1,0 +1,167 @@
+<!--
+    Created by wangyang on 2019-01-23.
+    itwangyang@gmail.com
+    http://itwangyang.xyz
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>A.I票据-登录</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!--<link rel="stylesheet" href="css/reset.css">-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/app.css">
+    <style>
+        .navbar-light .navbar-nav .nav-link {
+            color: #202020;
+        }
+        .fontSize16 {
+            font-size: 16px;
+        }
+        .fontSize14 {
+            font-size: 14px;
+        }
+        img,
+        .img-responsive,
+        .thumbnail a > img,
+        .thumbnail > img {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+        .flexBox-space-around {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .flexBox-column-flex-start {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+        }
+        .flexBox-space-between {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .flexBox-center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .flexBox-row {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+        .flexBox-column {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        .ticket-top {
+            background-color: #0083c6;
+        }
+        .ticket-top a {
+            height: 30px;
+            color: #fff;
+            font-size: 14px;
+            line-height: 30px;
+            margin-right: 60px;
+        }
+        .navbar-meau {
+            border-bottom: 2px solid #f0fafe;
+        }
+        .navbar-meau .bg-light {
+            background-color: #fff !important;
+        }
+        .navbar-meau .active {
+            color: #218afd;
+            border-bottom: 2px solid #218afd;
+        }
+        .navbar-meau .navbar-light .navbar-nav .active > .nav-link,
+        .navbar-meau .navbar-light .navbar-nav .nav-link.active,
+        .navbar-meau .navbar-light .navbar-nav .nav-link.show,
+        .navbar-meau .navbar-light .navbar-nav .show > .nav-link {
+            color: #218afd;
+        }
+        .navbar-meau li.nav-item {
+            text-align: center;
+            margin: 0 20px;
+        }
+        .navbar-meau a {
+            font-size: 16px;
+            color: #202020;
+        }
+        .navbar-meau .navbar-light .navbar-nav .nav-link:focus,
+        .navbar-meau .navbar-light .navbar-nav .nav-link:hover {
+            color: #218afd;
+        }
+        .navbar-meau .login,
+        .navbar-meau .reg {
+            width: 111px;
+            height: 40px;
+            line-height: 20px;
+            border-radius: 10px;
+        }
+        .navbar-meau .reg {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+<!--ticket-top begin-->
+<div class="ticket-top container-fluid">
+    <div class="container">
+        <nav class="ticket-top-nav">
+            <a class="ticket-top-nav-item active" href="#">服务热线:120362564</a>
+            <a class="ticket-top-nav-item" href="#">服务时间：<span>9:00-12:00</span></a>
+        </nav>
+    </div>
+</div>
+<!--ticket-top end-->
+
+
+<section class="container-fluid navbar-meau">
+    <nav class="container navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" class="img-responsive"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">我要出票</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">交易大厅</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">我的订单</a>
+                </li>
+            </ul>
+
+            <form class="form-inline">
+                <button class="btn btn-primary login" type="button">登录</button>
+                <button class="btn btn-outline-primary reg" type="button">注册</button>
+            </form>
+        </div>
+    </nav>
+</section>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

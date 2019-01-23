@@ -1,0 +1,182 @@
+/**
+ * Created by wangyang on 2019-01-23.
+ * itwangyang@gmail.com
+ * http://itwangyang.xyz
+ */
+@mainColor: #218afd;
+@mainColorSize: #202020;
+
+a{
+    text-decoration: none !important;
+    cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: @mainColorSize;
+}
+.fontSize18 {
+    font-size: 18px;
+}
+
+.fontSize16 {
+    font-size: 16px;
+}
+
+.fontSize14 {
+    font-size: 14px;
+}
+
+img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    display: block;
+    max-width: 100%;
+    height: auto
+}
+
+.flexBox-space-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.flexBox-column-flex-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.flexBox-space-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexBox-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexBox-row {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.flexBox-column {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/*==========================================ticket-top================================================*/
+.ticket-top {
+    background-color: #0083c6;
+
+    a {
+        height: 30px;
+        color: #fff;
+        font-size: 14px;
+        line-height: 30px;
+        margin-right: 60px;
+    }
+}
+
+
+/*==========================================navbar-meau================================================*/
+.navbar-meau {
+    .bg-light {
+        background-color: #fff !important;
+    }
+    border-bottom: 2px solid #f0fafe;
+
+    .active{
+        color: @mainColor;
+        border-bottom: 2px solid @mainColor;
+    }
+    .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+        color: @mainColor;
+    }
+    li.nav-item {
+        text-align: center;
+        margin: 0 20px;
+    }
+
+    a {
+        .fontSize16;
+        color: @mainColorSize;
+    }
+
+    .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+        color: @mainColor;
+    }
+
+    .login-btn,.reg-btn{
+        width: 111px;
+        height: 40px;
+        line-height: 20px;
+        border-radius: 10px;
+    }
+    .reg-btn{
+        margin-left: 20px;
+    }
+}
+
+/*==========================================login================================================*/
+.login{
+    .forget-pwd{
+        display: flex;
+        justify-content: flex-end;
+        font-size: 14px;
+    }
+    .rembel-pwd{
+        .fontSize14;
+        margin-left: 5px;
+        color: @mainColorSize;
+    }
+    .forget-pwd{
+        a{
+            color: @mainColorSize;
+        }
+    }
+    .reg-number{
+        height: 60px;
+        .flexBox-center;
+        font-size: 14px;
+        color: @mainColor;
+
+    }
+}
+
+
+
+/*==============================footer===========================================*/
+footer{
+    height: 260px;
+    background-color: #323232;
+    .footer{
+        p{
+            .fontSize18;
+            color: #fff;
+        }
+        .navbar-bottom-item{
+            .fontSize14;
+            color: #c4c4c4;
+        }
+        p.tel{
+            font-size: 30px;
+        }
+    }
+}
+
+
+.forgetPwd{
+    border: 2px solid #f0fafe;
+    justify-content: center;
+    .logo-center{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+

@@ -1,0 +1,163 @@
+<!--
+    Created by wangyang on 2019-01-23.
+    itwangyang@gmail.com
+    http://itwangyang.xyz
+-->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>A.I票据-登录</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/app.css">
+</head>
+<body>
+<!--ticket-top begin-->
+<div class="ticket-top container-fluid">
+    <div class="container">
+        <nav class="ticket-top-nav">
+            <a class="ticket-top-nav-item active" href="#">服务热线:120362564</a>
+            <a class="ticket-top-nav-item" href="#">服务时间：<span>9:00-12:00</span></a>
+        </nav>
+    </div>
+</div>
+<!--ticket-top end-->
+
+<!--navbar-meau begin-->
+<section class="container-fluid navbar-meau">
+    <nav class="container navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="" class="img-responsive" width="208" height="54"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">首页 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">我要出票</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">交易大厅</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">我的订单</a>
+                </li>
+            </ul>
+
+            <!--<form class="form-inline">-->
+            <!--<button class="btn btn-primary login-btn" type="button">登录</button>-->
+            <!--<button class="btn btn-outline-primary reg-btn" type="button">注册</button>-->
+            <!--</form>-->
+        </div>
+    </nav>
+</section>
+<!--navbar-meau end-->
+
+<!--login begin-->
+<div class="container login py-4">
+    <div class="row forgetPwd">
+        <div class="col col-lg-6 ">
+            <div class="container ">
+                <div class="py-3 text-center logo-center">
+                    <img src="../images/logo.png" width="208" height="54" class="img-responsive" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-md-12 order-md-1">
+                        <form class="needs-validation" novalidate>
+                            <div class="row">
+                                <div class="col-md-12 mb-12">
+                                    <label for="email" class="">邮箱</label>
+                                    <input type="email" class="form-control"  id="email" placeholder="请您输入邮箱" value="" required maxlength="30">
+                                    <div class="invalid-feedback">
+                                        请您输入正确的邮箱
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3 pt-3">
+                                <label for="code">验证码 </label>
+
+                                <div class="row">
+                                    <div class="col-lg-8">
+                                        <input type="text" class="form-control" id="code" placeholder="请您输入验证码" maxlength="6">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <input type="button" class="form-control" value="获取验证码" >
+                                    </div>
+                                </div>
+                                <div class="invalid-feedback">
+                                    请您输入你的验证码
+                                </div>
+                            </div>
+
+                            <div class="mb-3 ">
+                                <label for="password">密码 </label>
+                                <input type="password" class="form-control" id="password" placeholder="请您输入密码" maxlength="25">
+                                <div class="invalid-feedback">
+                                    请您输入你的密码
+                                </div>
+                            </div>
+
+                            <button class="btn btn-primary btn-md btn-block" type="button">重置密码</button>
+                            <div class="container">
+                                <div class="reg-number">已经有账号?<a  href="">登录</a></div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--login end-->
+
+
+
+<!--footer begin-->
+<footer class="container-fluid">
+    <div class="footer container pt-3">
+        <div class="row" style="color: #fff">
+            <div class="col-lg-4 col-md-3 col-sm-12 ">
+                <p>客服热线</p>
+                <p class="tel">4000-00000-1000</p>
+                <li class="navbar-bottom-item">工作时间：8：00-18：00</li>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 ">
+                <p>关于我们</p>
+                <li class="navbar-bottom-item">关于澳赢科技</li>
+                <li class="navbar-bottom-item">联系我们</li>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 ">
+                <p>电票交易</p>
+                <li class="navbar-bottom-item">获取交易权限</li>
+                <li class="navbar-bottom-item">交易流程</li>
+                <li class="navbar-bottom-item">电子使用规则</li>
+                <li class="navbar-bottom-item">相关下载</li>
+                <li class="navbar-bottom-item">常见问题</li>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 ">
+                <img src="../images/qr_code.png" alt="" width="123" height="120" class="img-responsive">
+                <p>微信公众号</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer end-->
+
+<script src="../js/jquery.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/common.js"></script>
+</body>
+</html>

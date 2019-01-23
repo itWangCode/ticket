@@ -1,0 +1,157 @@
+/**
+ * Created by wangyang on 2019-01-23.
+ * itwangyang@gmail.com
+ * http://itwangyang.xyz
+ */
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #202020;
+}
+.fontSize18 {
+  font-size: 18px;
+}
+.fontSize16 {
+  font-size: 16px;
+}
+.fontSize14 {
+  font-size: 14px;
+}
+img,
+.img-responsive,
+.thumbnail a > img,
+.thumbnail > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.flexBox-space-around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.flexBox-column-flex-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.flexBox-space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flexBox-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexBox-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.flexBox-column {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/*==========================================ticket-top================================================*/
+.ticket-top {
+  background-color: #0083c6;
+}
+.ticket-top a {
+  height: 30px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+  margin-right: 60px;
+}
+/*==========================================navbar-meau================================================*/
+.navbar-meau {
+  border-bottom: 2px solid #f0fafe;
+}
+.navbar-meau .bg-light {
+  background-color: #fff !important;
+}
+.navbar-meau .active {
+  color: #218afd;
+  border-bottom: 2px solid #218afd;
+}
+.navbar-meau .navbar-light .navbar-nav .active > .nav-link,
+.navbar-meau .navbar-light .navbar-nav .nav-link.active,
+.navbar-meau .navbar-light .navbar-nav .nav-link.show,
+.navbar-meau .navbar-light .navbar-nav .show > .nav-link {
+  color: #218afd;
+}
+.navbar-meau li.nav-item {
+  text-align: center;
+  margin: 0 20px;
+}
+.navbar-meau a {
+  font-size: 16px;
+  color: #202020;
+}
+.navbar-meau .navbar-light .navbar-nav .nav-link:focus,
+.navbar-meau .navbar-light .navbar-nav .nav-link:hover {
+  color: #218afd;
+}
+.navbar-meau .login-btn,
+.navbar-meau .reg-btn {
+  width: 111px;
+  height: 40px;
+  line-height: 20px;
+  border-radius: 10px;
+}
+.navbar-meau .reg-btn {
+  margin-left: 20px;
+}
+/*==========================================login================================================*/
+.login .forget-pwd {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+}
+.login .rembel-pwd {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #202020;
+}
+.login .forget-pwd a {
+  color: #202020;
+}
+.login .reg-number {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #218afd;
+}
+/*==============================footer===========================================*/
+footer {
+  height: 260px;
+  background-color: #323232;
+}
+footer .footer p {
+  font-size: 18px;
+  color: #fff;
+}
+footer .footer .navbar-bottom-item {
+  font-size: 14px;
+  color: #c4c4c4;
+}
+footer .footer p.tel {
+  font-size: 30px;
+}
+.forgetPwd {
+  border: 2px solid #f0fafe;
+  justify-content: center;
+}
+.forgetPwd .logo-center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+/*# sourceMappingURL=style.css.map */
