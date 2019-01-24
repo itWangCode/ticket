@@ -3,6 +3,9 @@
  * itwangyang@gmail.com
  * http://itwangyang.xyz
  */
+.fontcolor20 {
+  color: #202020;
+}
 a {
   text-decoration: none !important;
   cursor: pointer;
@@ -18,6 +21,9 @@ a {
 }
 .fontSize14 {
   font-size: 14px;
+}
+.hr-line-dashed {
+  border-bottom: 1px dashed #d3d3d3;
 }
 img,
 .img-responsive,
@@ -197,5 +203,10 @@ footer .footer p.tel {
 }
 .reg1 .my-success-reg input {
   font-size: 14px;
+}
+.breadNavigationBar {
+  height: 60px;
+  display: flex;
+  align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
