@@ -138,7 +138,7 @@ footer .footer p {
   font-size: 18px;
   color: #fff;
 }
-footer .footer .navbar-bottom-item {
+footer .footer .navbar-bottom-item a {
   font-size: 14px;
   color: #c4c4c4;
 }
@@ -153,5 +153,33 @@ footer .footer p.tel {
   text-align: center;
   display: flex;
   justify-content: center;
+}
+.reg1 {
+  border: 2px solid #f0fafe;
+}
+.reg1 .text-active {
+  color: #218afd !important;
+}
+.reg1 .text-font-size {
+  font-size: 14px;
+  color: #575757;
+  width: 200px;
+  margin-left: -12px;
+  margin-top: 15px;
+}
+.reg1 span.border {
+  border: 2px solid #f4f4f4;
+}
+.reg1 .fa-stack {
+  position: relative;
+  vertical-align: middle;
+  width: 29px;
+  height: 29px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+}
+.reg1 .fa-lg {
+  font-size: 0.8em;
 }
 /*# sourceMappingURL=style.css.map */

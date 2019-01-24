@@ -12,12 +12,13 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
-    <title>A.I票据-登录</title>
+    <title>A.I票据-注册</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+          integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/app.css">
 </head>
@@ -36,8 +37,10 @@
 <!--navbar-meau begin-->
 <section class="container-fluid navbar-meau">
     <nav class="container navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="" class="img-responsive" width="208" height="54"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="../index.html"><img src="../images/logo.png" alt="" class="img-responsive"
+                                                          width="208" height="54"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -57,68 +60,96 @@
             </ul>
 
             <!--<form class="form-inline">-->
-                <!--<button class="btn btn-primary login-btn" type="button">登录</button>-->
-                <!--<button class="btn btn-outline-primary reg-btn" type="button">注册</button>-->
+            <!--<button class="btn btn-primary login-btn" type="button">登录</button>-->
+            <!--<button class="btn btn-outline-primary reg-btn" type="button">注册</button>-->
             <!--</form>-->
         </div>
     </nav>
 </section>
 <!--navbar-meau end-->
 
-<!--login begin-->
-<div class="container login py-4">
-    <div class="row">
-        <div class="col col-lg-6 ">
-            <img src="../images/login_img.png" class="img-responsive" alt="" width="600" height="613">
-        </div>
-        <div class="col col-lg-6 ">
-            <div class="container">
-                <div class="py-3 text-center">
-                    <h2>登录</h2>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 order-md-1">
-                        <form class="needs-validation" novalidate>
-                            <div class="row">
-                                <div class="col-md-12 mb-12">
-                                    <label for="email" class="">邮箱</label>
-                                    <input type="email" class="form-control"  id="email" placeholder="请您输入邮箱" value="" required>
-                                    <div class="invalid-feedback">
-                                        请您输入正确的邮箱
-                                    </div>
-                                </div>
-                            </div>
+<!---->
 
-                            <div class="mb-3 pt-3">
-                                <label for="password">密码 </label>
-                                <input type="password" class="form-control" id="password" placeholder="请您输入密码">
-                                <div class="invalid-feedback">
-                                    请您输入你的密码
-                                </div>
-                            </div>
-
-                            <div class="row">
-                                <div class="col-md-6 mb-6">
-                                    <label><input type="checkbox"><span class="rembel-pwd">记住密码</span></label>
-                                </div>
-                                <div class="col-md-6 mb-6 forget-pwd">
-                                    <label><a href="">忘记密码</a>?</label>
-                                </div>
-                            </div>
-
-
-                            <button class="btn btn-primary btn-md btn-block" type="button">登录</button>
-                            <div class="container">
-                                <div class="reg-number"><a href="">注册账号</a></div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+<section class="container reg1 mt-4">
+    <!--进度条-->
+    <div class="container mt-4">
+        <div class="row">
+            <a href="#">
+                <div class="align-middle text-primary">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <span class="fa-stack-1x text-white">1</span>
+           <div class="d-inline-block">
+                <p class="position-absolute text-muted text-font-size text-active">注册会员</p>
             </div>
+      </span>
+
+                </div>
+            </a>
+            <span class="col border border-primary mx-1 my-auto"></span>
+
+            <a href="">
+                <div class="align-middle text-muted">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <span class="fa-stack-1x text-white">2</span>
+          <div class="d-inline-block">
+                <p class="position-absolute text-muted text-font-size">企业认证</p>
+            </div>
+      </span>
+
+                </div>
+            </a>
+            <span class="col border mx-1 my-auto"></span>
+
+            <!--text-muted-->
+            <a href="">
+                <div class="align-middle text-muted">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <span class="fa-stack-1x text-white">3</span>
+          <div class="d-inline-block">
+                <p class="position-absolute text-muted text-font-size">绑定银行账户</p>
+            </div>
+      </span>
+
+                </div>
+            </a>
+            <span class="col border mx-1 my-auto"></span>
+
+            <a href="">
+                <div class="align-middle text-muted">
+         <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <span class="fa-stack-1x text-white">4</span>
+          <div class="d-inline-block">
+                <p class="position-absolute text-muted text-font-size" >平台审核</p>
+            </div>
+      </span>
+                </div>
+            </a>
+            <span class="col border mx-1 my-auto"></span>
+
+            <a href="">
+                <div class="align-middle text-muted">
+      <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x"></i>
+        <span class="fa-stack-1x text-white">5</span>
+           <div class="d-inline-block">
+                <p class="position-absolute text-muted text-font-size">注册成功</p>
+            </div>
+      </span>
+
+                </div>
+            </a>
         </div>
+
+        <div class="m-5"></div>
+
+
     </div>
-</div>
-<!--login end-->
+</section>
+
 
 
 
