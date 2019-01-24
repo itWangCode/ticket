@@ -116,7 +116,7 @@
 
                 </div>
             </a>
-            <span class="col border mx-1 my-auto"></span>
+            <span class="col border border-primary mx-1 my-auto"></span>
 
             <!--text-muted-->
             <a href="reg3.html">
@@ -184,11 +184,29 @@
                                     <div class="col-lg-12">
                                         <div class="row">
                                             <div class="col-lg-3">
-                                                <label for="email" class="">企业名称</label>
+                                                <label for="bank" class="">开户银行行号</label>
                                             </div>
                                             <div class="col-lg-9">
-                                                <input type="email" class="form-control" id="email"
-                                                       placeholder="请您输入企业名称" value="" required maxlength="30">
+                                                <input type="email" class="form-control" id="bank"
+                                                       placeholder="请您输入开户银行行号" value="" required maxlength="30">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-lg-12">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label for="mybank" class="">所属银行</label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <select class="custom-select" id="mybank">
+                                                    <option selected>请您选择银行</option>
+                                                    <option value="1">中国银行</option>
+                                                    <option value="2">中国农业银行</option>
+                                                    <option value="3">中国建设银行</option>
+                                                </select>
                                             </div>
                                         </div>
                                     </div>
@@ -197,10 +215,10 @@
                                 <div class="mb-3 mb-3">
                                     <div class="row">
                                         <div class="col-lg-3">
-                                            <label for="code">统一社会信用卡 </label>
+                                            <label for="bankNumber">银行账号 </label>
                                         </div>
                                         <div class="col-lg-9">
-                                            <input type="text" class="form-control" id="code" placeholder="请您输入统一社会信用卡"
+                                            <input type="text" class="form-control" id="bankNumber" placeholder="请您输入银行账号"
                                                    maxlength="6">
                                         </div>
                                     </div>
@@ -228,18 +246,48 @@
                     <div class="row">
                         <div class="col-md-12 order-md-1">
                             <form class="needs-validation" novalidate>
+
                                 <div class="row mb-3">
                                     <div class="col-lg-12">
                                         <div class="row">
                                             <div class="col-lg-3">
-                                                <label for="username" class="">法定代表人姓名</label>
+                                                <label for="username" class="">姓名</label>
                                             </div>
                                             <div class="col-lg-9">
                                                 <input type="email" class="form-control" id="username"
-                                                       placeholder="请您输入法定代表人姓名" value="" required maxlength="30">
+                                                       placeholder="请您输入姓名" value="" required maxlength="30">
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <div class="col-lg-12">
+                                        <div class="row">
+                                            <div class="col-lg-3">
+                                                <label for="tel" class="">手机号码</label>
+                                            </div>
+                                            <div class="col-lg-9">
+                                                <input type="email" class="form-control" id="tel"
+                                                       placeholder="请您输入手机号码" value="" required maxlength="30">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3 mb-3">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <label for="code">验证码 </label>
+                                        </div>
+                                        <div class="col-lg-5">
+                                            <input type="text" class="form-control" id="code" placeholder="请您输入验证码" maxlength="6">
+                                        </div>
+                                        <div class="col-lg-4">
+                                            <input onClick="sendMessage()" id="btnSendCode" type="button" class="form-control btn-primary" value="获取验证码" >
+                                        </div>
+                                    </div>
+
                                 </div>
 
                                 <div class="mb-3 mb-3">
@@ -258,6 +306,7 @@
                                 <div class="row">
                                     <div class="col-lg-3"></div>
                                     <div class="col-lg-9">
+                                        <article class="mb-3"><input type="radio" class="mr-2"><span class="fontSize14">授权委托书</span></article>
                                         <button class="btn mb-3 btn-primary  btn-block" id="summitBut" type="button">提交认证</button>
                                     </div>
                                 </div>

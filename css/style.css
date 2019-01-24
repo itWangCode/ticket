@@ -9,6 +9,10 @@
 .fontColor57 {
   color: #575757;
 }
+.custom-select {
+  font-size: 14px;
+  color: #575757;
+}
 a {
   text-decoration: none !important;
   cursor: pointer;
