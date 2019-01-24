@@ -1,5 +1,5 @@
 <!--
-    Created by wangyang on 2019-01-23.
+    Created by wangyang on 2019-01-25.
     itwangyang@gmail.com
     http://itwangyang.xyz
 -->
@@ -12,16 +12,128 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="format-detection" content="telephone=no">
-    <title>A.I票据</title>
+    <title>A.I票据-首页</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
+<!--ticket-top begin-->
+<div class="ticket-top container-fluid">
+    <div class="container">
+        <nav class="ticket-top-nav">
+            <a class="ticket-top-nav-item active" href="#">服务热线:120362564</a>
+            <a class="ticket-top-nav-item" href="#">服务时间：<span>9:00-12:00</span></a>
+        </nav>
+    </div>
+</div>
+<!--ticket-top end-->
+
+<!--navbar-meau begin-->
+<section class="container-fluid navbar-meau">
+    <nav class="container navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="" class="img-responsive" width="208"
+                                                       height="54"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">首页 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">我要出票</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">交易大厅</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">我的订单</a>
+                </li>
+            </ul>
+
+            <form class="form-inline">
+                <button class="btn btn-primary login-btn" type="button">登录</button>
+                <button class="btn btn-outline-primary reg-btn" type="button">注册</button>
+            </form>
+        </div>
+    </nav>
+</section>
+<!--navbar-meau end-->
+
+
+<!--banner begin-->
+<div id="demo" class="carousel slide mb-2" data-ride="carousel">
+    <!-- 指示符 -->
+    <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    <!-- 轮播图片 -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/banner.png" width="1920" height="500">
+        </div>
+        <div class="carousel-item">
+            <img src="images/banner.png" width="1920" height="500">
+        </div>
+        <div class="carousel-item">
+            <img src="images/banner.png" width="1920" height="500">
+        </div>
+    </div>
+
+    <!-- 左右切换按钮 -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+
+</div>
+<!--banner end-->
+
+
+<!--footer begin-->
+<footer class="container-fluid">
+    <div class="footer container pt-3">
+        <div class="row" style="color: #fff">
+            <div class="col-lg-4 col-md-3 col-sm-12 ">
+                <p>客服热线</p>
+                <p class="tel">4000-00000-1000</p>
+                <li class="navbar-bottom-item">工作时间：8：00-18：00</li>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 ">
+                <p>关于我们</p>
+                <li class="navbar-bottom-item"><a href="">关于澳赢科技</a></li>
+                <li class="navbar-bottom-item"><a href="">联系我们</a></li>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 ">
+                <p>电票交易</p>
+                <li class="navbar-bottom-item"><a href="">获取交易权限</a></li>
+                <li class="navbar-bottom-item"><a href="">交易流程</a></li>
+                <li class="navbar-bottom-item"><a href="">电子使用规则</a></li>
+                <li class="navbar-bottom-item"><a href="">相关下载</a></li>
+                <li class="navbar-bottom-item"><a href="">常见问题</a></li>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-12 ">
+                <img src="../images/qr_code.png" alt="" width="123" height="120" class="img-responsive">
+                <p>微信公众号</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--footer end-->
+
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
-<script></script>
+<script src="js/common.js"></script>
+
 </body>
 </html>
