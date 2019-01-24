@@ -13,6 +13,10 @@ a {
 .navbar-light .navbar-nav .nav-link {
   color: #202020;
 }
+textarea {
+  font-size: 14px;
+  color: #202020;
+}
 .fontSize18 {
   font-size: 18px;
 }
@@ -208,5 +212,53 @@ footer .footer p.tel {
   height: 60px;
   display: flex;
   align-items: center;
+}
+.reg2 .file-img {
+  width: 254px;
+  height: 196px;
+  border: 1px dashed #d3d3d3;
+}
+.reg2 .file-img img.haha {
+  width: 254px;
+  height: 196px;
+}
+.reg2 .textarea-address {
+  font-size: 16px;
+  color: #202020;
+}
+.reg2 .isModal2,
+.reg2 .isModal3 {
+  display: none;
+}
+.reg2 .my-success-reg1 label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  line-height: 47px;
+  color: #202020;
+  font-size: 14px;
+}
+.reg2 .my-success-reg1 input {
+  font-size: 14px;
+}
+.reg2 .radio-group li {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 40px;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+.reg2 .radio-group li label {
+  height: 40px;
+  line-height: 40px;
+  margin-left: 10px;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+.reg2 .radio-group li input {
+  height: 40px;
+  line-height: 40px;
 }
 /*# sourceMappingURL=style.css.map */
