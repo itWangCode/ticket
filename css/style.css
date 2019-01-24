@@ -6,6 +6,9 @@
 .fontcolor20 {
   color: #202020;
 }
+.fontColor57 {
+  color: #575757;
+}
 a {
   text-decoration: none !important;
   cursor: pointer;
@@ -227,7 +230,9 @@ footer .footer p.tel {
   color: #202020;
 }
 .reg2 .isModal2,
-.reg2 .isModal3 {
+.reg2 .isModal3,
+.reg2 .isModal5,
+.reg2 .isModal6 {
   display: none;
 }
 .reg2 .my-success-reg1 label {
