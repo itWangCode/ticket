@@ -59,10 +59,10 @@
                 </li>
             </ul>
 
-            <!--<form class="form-inline">-->
-            <!--<button class="btn btn-primary login-btn" type="button">登录</button>-->
-            <!--<button class="btn btn-outline-primary reg-btn" type="button">注册</button>-->
-            <!--</form>-->
+            <form class="form-inline">
+            <button class="btn btn-outline-primary login-btn" type="button">登录</button>
+            <button class="btn btn-primary  reg-btn" type="button">注册</button>
+            </form>
         </div>
     </nav>
 </section>
@@ -70,9 +70,9 @@
 
 <!---->
 
-<section class="container reg1 mt-4">
+<section class="container reg1 mt-4 mb-4">
     <!--进度条-->
-    <div class="container mt-4">
+    <div class="container mt-4 pl-4 pr-4">
         <div class="row">
             <a href="#">
                 <div class="align-middle text-primary">
@@ -148,6 +148,98 @@
 
 
     </div>
+
+    <!--内容输入框-->
+    <div class="row my-success-reg py-5">
+        <div class="col col-lg-6 ">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-md-12 order-md-1">
+                        <form class="needs-validation" novalidate>
+                            <div class="row mb-3">
+                                <div class="col-lg-12">
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <label for="email" class="">邮箱</label>
+                                        </div>
+                                        <div class="col-lg-9">
+                                            <input type="email" class="form-control"   id="email" placeholder="请您输入邮箱" value="" required maxlength="30">
+                                            <div class="invalid-feedback">
+                                                请您输入正确的邮箱
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3 mb-3">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <label for="code">验证码 </label>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <input type="text" class="form-control" id="code" placeholder="请您输入验证码" maxlength="6">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <input onClick="sendMessage()" id="btnSendCode" type="button" class="form-control btn-primary" value="获取验证码" >
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="mb-3 mb-3">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <label for="password">密码 </label>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <input type="password" class="form-control" id="password" placeholder="请您输入6位以上的密码" maxlength="25">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3 mb-3">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <label for="repassword">确认密码 </label>
+                                    </div>
+                                    <div class="col-lg-9">
+                                        <input type="password" class="form-control" id="repassword" placeholder="请您再次输入6位以上的密码" maxlength="25">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3 mb-3">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <label for="codeimg">图形验证码 </label>
+                                    </div>
+                                    <div class="col-lg-5">
+                                        <input type="text" class="form-control" id="codeimg" placeholder="请输入图形验证码" maxlength="6">
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <input  type="button" class="form-control btn-warning" value="xuuu" >
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3"></div>
+                                <div class="col-lg-9">
+                                    <article class="mb-3"><input type="radio" class="mr-2"><span class="fontSize14">我已阅读并同意 <a href="">《用户注册协议》</a></span></article>
+                                    <button class="btn mb-3 btn-primary btn-md btn-block" id="summitBut" type="button">完成注册</button>
+                                    <div class="container">
+                                        <div class="reg-number text-center fontSize14">已经有账号?<a class="ml-2" href="login.html">立即登录</a></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>
 
 

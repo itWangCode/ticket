@@ -182,4 +182,20 @@ footer .footer p.tel {
 .reg1 .fa-lg {
   font-size: 0.8em;
 }
+.reg1 .my-success-reg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.reg1 .my-success-reg label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  line-height: 47px;
+  color: #202020;
+  font-size: 14px;
+}
+.reg1 .my-success-reg input {
+  font-size: 14px;
+}
 /*# sourceMappingURL=style.css.map */
